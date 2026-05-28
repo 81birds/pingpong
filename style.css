@@ -1,0 +1,24 @@
+/* 全体のレイアウト設定 */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 横方向の中央揃え */
+    justify-content: center; /* 縦方向の中央揃え */
+    height: 100vh;
+    background-color: #2c3e50; /* 背景色（ダークネイビー） */
+    color: white;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* p5.jsのキャンバスに枠線をつける */
+canvas {
+    border: 5px solid #ecf0f1;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border-radius: 8px;
+}
